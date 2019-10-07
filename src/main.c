@@ -9,6 +9,7 @@
 void main(void)
 {
   /* _graphics(0); */
+  __asm__("JSR $E450");
   charset_use();
   ui_run(1);
   /* format_disk(2); */
